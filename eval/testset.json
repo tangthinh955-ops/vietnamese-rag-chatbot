@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Chính sách đổi trả của shop trong bao nhiêu ngày?",
+    "expected_source": "chinh-sach-doi-tra.md",
+    "must_contain": ["7 ngày"]
+  },
+  {
+    "id": 2,
+    "question": "Đơn hàng bao nhiêu tiền thì được miễn phí vận chuyển?",
+    "expected_source": "chinh-sach-van-chuyen.md",
+    "must_contain": ["299"]
+  },
+  {
+    "id": 3,
+    "question": "Shop có hỗ trợ kiểm tra hàng trước khi thanh toán không?",
+    "expected_source": "chinh-sach-van-chuyen.md",
+    "must_contain": []
+  },
+  {
+    "id": 4,
+    "question": "Ship hàng ra miền Bắc mất bao lâu?",
+    "expected_source": "chinh-sach-van-chuyen.md",
+    "must_contain": ["3", "5"]
+  },
+  {
+    "id": 5,
+    "question": "Làm thế nào để đặt hàng khi đang xem livestream?",
+    "expected_source": "huong-dan-dat-hang-livestream.md",
+    "must_contain": ["comment"]
+  },
+  {
+    "id": 6,
+    "question": "Mã giảm giá LIVE10 được giảm bao nhiêu phần trăm?",
+    "expected_source": "huong-dan-dat-hang-livestream.md",
+    "must_contain": ["10%"]
+  },
+  {
+    "id": 7,
+    "question": "Shop nhận thanh toán qua những hình thức nào?",
+    "expected_source": "huong-dan-thanh-toan.md",
+    "must_contain": ["COD", "chuyển khoản"]
+  },
+  {
+    "id": 8,
+    "question": "Son Velvet Matte giá bao nhiêu trên livestream?",
+    "expected_source": "san-pham-son-moi.md",
+    "must_contain": ["129"]
+  },
+  {
+    "id": 9,
+    "question": "Son kem lì có mấy màu, màu nào hợp da ngăm?",
+    "expected_source": "san-pham-son-moi.md",
+    "must_contain": []
+  },
+  {
+    "id": 10,
+    "question": "Áo thun nữ 50kg thì mặc size nào?",
+    "expected_source": "san-pham-ao-thun.md",
+    "must_contain": ["M"]
+  },
+  {
+    "id": 11,
+    "question": "Áo thun làm bằng chất liệu gì?",
+    "expected_source": "san-pham-ao-thun.md",
+    "must_contain": ["cotton"]
+  },
+  {
+    "id": 12,
+    "question": "Dùng mỹ phẩm bị dị ứng thì shop hỗ trợ thế nào?",
+    "expected_source": "chinh-sach-bao-hanh.md",
+    "must_contain": ["70%"]
+  },
+  {
+    "id": 13,
+    "question": "Nếu phát hiện hàng giả shop đền bao nhiêu?",
+    "expected_source": "chinh-sach-bao-hanh.md",
+    "must_contain": ["10"]
+  },
+  {
+    "id": 14,
+    "question": "Shop livestream vào những khung giờ nào?",
+    "expected_source": "gioi-thieu-shop.md",
+    "must_contain": ["20h00"]
+  },
+  {
+    "id": 15,
+    "question": "Mua từ bao nhiêu đơn thì được lên VIP?",
+    "expected_source": "chuong-trinh-khuyen-mai.md",
+    "must_contain": ["10"]
+  },
+  {
+    "id": 16,
+    "question": "Shop có chương trình giới thiệu bạn bè không?",
+    "expected_source": "chuong-trinh-khuyen-mai.md",
+    "must_contain": ["20.000"]
+  },
+  {
+    "id": 17,
+    "question": "Áo mặc không vừa đổi size thì ai chịu phí ship?",
+    "expected_source": "faq.md",
+    "must_contain": []
+  },
+  {
+    "id": 18,
+    "question": "Shop có bán sỉ không, chiết khấu bao nhiêu?",
+    "expected_source": "faq.md",
+    "must_contain": []
+  },
+  {
+    "id": 19,
+    "question": "Chuyển khoản xong bao lâu thì shop xác nhận đơn?",
+    "expected_source": "faq.md",
+    "must_contain": []
+  },
+  {
+    "id": 20,
+    "question": "Lịch sử Việt Nam thời nhà Nguyễn như thế nào?",
+    "expected_source": null,
+    "must_contain": ["không tìm thấy"]
+  }
+]

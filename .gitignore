@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Env / secrets
+.env
+
+# Virtualenvs
+.venv/
+venv/
+
+# Persisted vector store + generated artifacts
+storage/
+eval/reports/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

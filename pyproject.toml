@@ -1,0 +1,30 @@
+[project]
+name = "vietnamese-rag-chatbot"
+version = "0.1.0"
+description = "RAG API for Vietnamese knowledge-base question answering (FastAPI + ChromaDB + Groq)"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.8.0",
+    "pydantic-settings>=2.4.0",
+    "chromadb>=0.5.0",
+    "sentence-transformers>=3.0.0",
+    "openai>=1.40.0",
+    "pypdf>=4.3.0",
+    "python-multipart>=0.0.9",
+    "numpy>=1.26.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+# B008 conflicts with FastAPI's Depends-in-defaults idiom
+ignore = ["E501", "B008"]
